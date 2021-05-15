@@ -1,0 +1,100 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .banner{
+            background: url(images/welcome.png);
+            width:100%;
+            min-height: 100vh;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+          }
+
+        .container-fluid{
+            display: flex;
+            padding: 10px;    
+        }
+        img {
+            height: 300px;
+        }
+        .row{
+            width: 50%;
+            margin-left: 20%;
+            margin-top: 19%;   
+        }
+
+        .box{
+            padding-left: 10%;
+            margin-top: 20%;
+           
+         }
+        .mydiv{
+            text-align: center;
+        } 
+        .btn{
+            text-decoration: none;
+            border-radius: 25px;
+            background-color: #F98EE3;
+            font-size: 1em;
+            font-weight: bold;
+            padding: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn:hover{
+            /* letter-spacing: 5px; */
+            transform: scale(1.03) perspective(10px);
+        }
+    
+       .btn3{
+           padding-left: 26px;
+           padding-right:27px ;
+       }
+       .btn1{
+           padding-left: 20px;
+           padding-right: 20px;
+       }
+
+       .homepage a{
+        color: #D3CEF2;
+        font-size:20px;
+    }
+    .homepage a:hover{
+        color: white;
+    }
+        /* @media only screen and (max-width:380px){
+            img{
+                height: 300px;
+                width: 400px;
+            }
+            .btn{
+                padding: 8px;
+                letter-spacing: 1px;
+            }
+        }
+        */
+        /* .banner {
+            background: url(images/visitor.jpg);
+            
+            min-height: 100%;
+            min-width:100%;
+              
+            
+            width: 100%;
+            height: auto;
+              
+            
+            position: fixed;
+            top: 0;
+            left: 0;
+          } */
+          
+          
+          /* xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
